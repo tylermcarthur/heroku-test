@@ -18,7 +18,7 @@ app.post('/', async (req,res)=>{
 //read all
 app.get('/', async (req,res)=>{
     try {
-        res.json('working2')
+        res.json('Tyler McArthur was here')
     } catch (err) {
         console.error(err.message)
     }
